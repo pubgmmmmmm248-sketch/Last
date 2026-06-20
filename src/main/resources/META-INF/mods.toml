@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="tntwarner"
+version="1.0"
+displayName="TNT Warner"
+authors="YourName"
+description='''
+Показывает время до взрыва динамита.
+'''
+
+[[dependencies.tntwarner]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.34,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tntwarner]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
